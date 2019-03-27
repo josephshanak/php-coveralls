@@ -44,6 +44,7 @@ class CloverXmlCoverageCollector
         $xpaths = [
             '/coverage/project/file',
             '/coverage/project/package/file',
+	    '/coverage/project/metrics/package/file',
         ];
 
         foreach ($xpaths as $xpath) {
